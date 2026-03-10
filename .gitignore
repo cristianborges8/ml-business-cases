@@ -1,0 +1,30 @@
+# Dados (não versionar arquivos grandes ou sensíveis)
+*.csv
+*.xlsx
+*.parquet
+*.json
+data/*.csv
+data/*.xlsx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Outputs grandes
+outputs/models/
+*.pkl
+*.joblib
+*.h5
+
+# Sistema
+.DS_Store
+Thumbs.db*.csv
